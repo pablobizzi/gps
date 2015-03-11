@@ -1,0 +1,32 @@
+N 0 Santa Maria
+N 1 Santa Cruz
+N 2 Tabai
+N 3 Porto Alegre
+N 4 Bage
+N 5 Caxias do Sul
+R 0 BR287
+R 1 BR386
+R 2 BR300
+R 3 BRGAY
+
+abaixo a aresta ligando SM a SC pela 287
+A 0 1 0 150 D
+A 1 2 0 70 D
+
+segue a ligacao de tabaí a poa pela 386
+A 2 3 1 80 D
+
+segue a ligacao de sm a bage pela 386
+A 0 4 0 130 D
+
+segue a ligacao de bage a poa pela 386
+A 4 3 1 1500 D
+
+segue a ligacao de SC a CX pela 386
+A 1 5 2 50 D
+
+segue a ligacao de bage a poa pela 386
+A 5 3 1 200 D
+
+segue o teste
+A 0 3 3 250 D
